@@ -1,0 +1,162 @@
+body {
+    background-color: #E9E8E8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    
+    
+}
+
+.container-custom {
+    width: 82%;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#root {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(./Escudo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    background-color: #1C315F;
+    color: white;
+    font-size: 45px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav .main-welcome-text {
+    color: #B73128;
+    font-size: 50px;
+    margin: 0;
+}
+
+nav .description {
+    font-size: 25px;
+    margin: 10px 0 0 0;
+}
+
+.main-name {
+    color: #1C315F;
+    font-size: 50px;
+    margin: 0 0 20px;
+}
+
+.tables {
+    border: 2px outset red;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.table-title {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+.required-asterik {
+    color: red;
+}
+
+.table-form {
+    border: 2px outset red;
+    border-radius: 8px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.table-mob {
+    border: 2px outset red;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.id-column {
+    width: 4%;
+    text-align: center;
+}
+
+.name-mob-column {
+    width: 22%;
+}
+
+.stock-mob {
+    width: 8%;
+    text-align: center;
+}
+
+.assigned-mob {
+    width: 8%;
+    text-align: center;
+}
+
+.unassigned-mob{
+    width: 9%;
+    text-align: center;
+}
+
+.amount-mob-damaged {
+    width: 8%;
+    text-align: center;
+}
+
+.operations-mob-column {
+    width: 40%;
+    text-align: center;
+}
+
+.id-row {
+    text-align: center;
+}
+
+.register {
+    align-self: center;
+}
+
+.buttons-mob {
+    justify-self: end;
+}
+
+.btn {
+    font-size: 23px;
+    padding: 2px;
+}
+
+.query-button {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 5px;
+    margin: 8px;
+  }
+
+.query-logo {
+  max-width: 55px;
+  min-width: 55px;
+  max-height: 55px;
+  min-height: 55px;
+  margin-right: 10px;
+}
+
+.query-text{
+    color: #263f75;
+    font-size: 25px;
+    font-weight: bold;
+}
